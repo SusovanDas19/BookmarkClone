@@ -14,7 +14,7 @@ function Contact() {
         <input
           type="email"
           placeholder="Enter your email address"
-          className="placeholder-gray-400 h-11 w-80 border rounded-md text-center focus:outline-none focus:ring-2 focus:ring-cusRed"
+          className="placeholder-gray-400 h-12 w-80 border rounded-md text-center focus:outline-none focus:ring-2 focus:ring-cusRed"
         />
         <Button
           height="h-12"

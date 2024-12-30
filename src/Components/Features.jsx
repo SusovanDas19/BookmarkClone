@@ -42,7 +42,7 @@ function Features() {
   }
 
   return (
-    <div className="mt-20">
+    <div id="features" className="mt-20">
       <div className="flex flex-col gap-8 items-center justify-center">
         <h1 className="text-4xl font-semibold font-rubik">Features</h1>
         <p className="text-base text-gray-400 text-center">

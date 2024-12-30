@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function Download() {
   return (
-    <div className="flex flex-col items-center mt-80">
+    <div id="download" className="flex flex-col items-center mt-80">
       <div className="text-center mb-10">
         <h1 className="font-rubik text-black text-4xl font-semibold mb-7">Download the extension</h1>
         <p className="text-gray-400 text-base font-rubik">

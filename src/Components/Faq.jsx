@@ -32,7 +32,7 @@ function Faq() {
   );
 
   return (
-    <div className="flex flex-col items-center justify-center mt-28 font-rubik">
+    <div id="faq" className="flex flex-col items-center justify-center mt-28 font-rubik">
       <div className="flex flex-col items-center justify-center gap-8 mb-10">
         <h1 className="text-4xl text-black font-semibold">
           Frequently Asked Questions
