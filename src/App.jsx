@@ -2,6 +2,7 @@ import Contact from "./Components/Contact";
 import Download from "./Components/Download";
 import Faq from "./Components/Faq";
 import Features from "./Components/Features";
+import Footer from "./Components/Footer";
 import Homeintro from "./Components/Homeintro";
 import Navbar from "./Components/Navbar";
 import { BrowserRouter } from "react-router-dom";
@@ -16,7 +17,7 @@ function App() {
         <Download />
         <Faq/>
         <Contact/>
-        <div className="h-96"></div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
