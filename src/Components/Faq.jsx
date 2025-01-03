@@ -32,17 +32,17 @@ function Faq() {
   );
 
   return (
-    <div id="faq" className="flex flex-col items-center justify-center mt-28 font-rubik">
-      <div className="flex flex-col items-center justify-center gap-8 mb-10">
-        <h1 className="text-4xl text-black font-semibold">
+    <div id="faq" className="flex flex-col items-center justify-center mt-28 font-rubik px-4 md:px-0">
+      <div className="flex flex-col items-center justify-center gap-4 md:gap-8 mb-10">
+        <h1 className="text-2xl md:text-4xl text-black font-semibold">
           Frequently Asked Questions
         </h1>
-        <p className="text-center">
+        <p className="text-center text-sm md:text-base">
           Here are some of our FAQs. If you have any other questions
-          <br /> you'd like answered please feel free to email us.
+          <br className="hidden md:block" /> you'd like answered please feel free to email us.
         </p>
       </div>
-      <div className="flex flex-col w-[650px] gap-5" ref={faqRef}>
+      <div className="flex flex-col w-full md:w-[650px] gap-5" ref={faqRef}>
         <div
           onClick={() => callFaq(1)}
           className="cursor-pointer flex flex-col items-start justify-start"

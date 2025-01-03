@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-full overflow-x-hidden">
       <BrowserRouter>
         <Navbar />
         <Homeintro />
